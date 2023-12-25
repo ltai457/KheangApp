@@ -1,0 +1,44 @@
+/* src/Timeline.css */
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the timeline entries */
+}
+
+.timeline-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%; /* Ensures that the entry takes full width */
+}
+
+.timeline-year {
+    font-size: 20px;
+    width: 60px; /* Sets a fixed width for the year */
+    text-align: right; /* Aligns the text to the right within the fixed width */
+    margin-right: 10px;
+}
+
+.timeline-content {
+    border-left: 2px solid #000;
+    padding-left: 10px;
+    flex-grow: 1; /* Allows the content to fill the remaining space */
+}
+
+.timeline-content h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.timeline-content p {
+    font-size: 16px;
+}
+
+.timeline-skills span {
+    display: inline-block;
+    background: #eee;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
